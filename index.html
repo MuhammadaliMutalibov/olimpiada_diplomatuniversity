@@ -200,8 +200,33 @@
                 <input type="text" name="ism-sharifi" required>
               </div>
               <div>
-                <label for="yashash-manzili">Yashash manzilingiz</label>
-                <input type="text"  name="yashash-manzili" required>
+                <label for="yashash-manzili">Viloyatingiz</label>
+                <select name="yashash-manzili" type="text" style="width: 100%;
+                border: none;
+                height: 50px;
+                margin-bottom: 25px;
+                padding-left: 15px;
+                outline: none;
+                color: #101010;
+                -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+                box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+                border-radius: 5px;" required>
+                  <option value="0">Tanlang</option>
+                  <option value="Toshkent shaxri">Toshkent shaxri</option>
+                  <option value="Toshkent viloyati">Toshkent viloyati</option>
+                  <option value="Sirdaryo viloyati">Sirdaryo viloyati</option>
+                  <option value="Jizzax viloyati">Jizzax viloyati</option>
+                  <option value="Samarqand viloyati">Samarqand viloyati</option>
+                  <option value="Farg'ona viloyati">Farg'ona viloyati</option>
+                  <option value="Namangan viloyati">Namangan viloyati</option>
+                  <option value="Andijon viloyati">Andijon viloyati</option>
+                  <option value="Qashqadaryo viloyati">Qashqadaryo viloyati</option>
+                  <option value="Surxandaryo viloyati">Surxandaryo viloyati</option>
+                  <option value="Buxoro viloyati">Buxoro viloyati</option>
+                  <option value="Navoiy viloyati">Navoiy viloyati</option>
+                  <option value="Xorazm viloyati">Xorazm viloyati</option>
+                  <option value="Qoraqalpog'iston Respublikasi">Qoraqalpog'iston Respublikasi</option>
+                </select>
               </div>
               <div>
                 <label for="telefon-raqami">Telefon raqamingiz 1</label><br>
@@ -212,7 +237,7 @@
                 +998<input type="text" name="telefon-raqami2" maxlength="9" pattern="\d{9}" required oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 9)">
               </div>
               <div>
-                <label for="maktabi">Qaysi maktabda tahsil olasiz?</label>
+                <label for="maktabi">Qaysi maktab / kollej / litseyda tahsil olasiz?</label>
                 <input type="text" name="maktabi" required>
               </div>
               <div>
@@ -234,7 +259,7 @@
                   <option value="0">Fanni tanlang</option>
                   <option value="Tarix">Tarix</option>
                   <option value="Matematika">Matematika</option>
-                  <option value="Ingliz tili">Ingliz tili</option>
+                  <option value="Ingiliz tili">Ingliz tili</option>
                   <option value="Arab tili">Arab tili</option>
                 </select>
               </div>
@@ -253,7 +278,7 @@
                   <option value="0">Tilni tanlang</option>
                   <option value="O'zbek tili">O'zbek tili</option>
                   <option value="Rus tili">Rus tili</option>
-                  <option value="Ingliz tili">Ingliz tili</option>
+                  <option value="Ingiliz tili">Ingliz tili</option>
                 </select>
               </div>
               <div>

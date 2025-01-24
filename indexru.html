@@ -260,8 +260,33 @@
                 <input type="text" name="ism-sharifi" required>
               </div>
               <div>
-                <label for="yashash-manzili">Ваш адрес проживания</label>
-                <input type="text"  name="yashash-manzili" required>
+                <label for="yashash-manzili">Ваш регион проживания</label>
+                <select name="yashash-manzili" type="text" style="width: 100%;
+                border: none;
+                height: 50px;
+                margin-bottom: 25px;
+                padding-left: 15px;
+                outline: none;
+                color: #101010;
+                -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+                box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+                border-radius: 5px;" required>
+                  <option value="0">Выберите</option>
+                  <option value="Toshkent shaxri">город Ташкент</option>
+                  <option value="Toshkent viloyati">Ташкентская область</option>
+                  <option value="Sirdaryo viloyati">Сырдарьинская область</option>
+                  <option value="Jizzax viloyati">Джизакская область</option>
+                  <option value="Samarqand viloyati">Самаркандская область</option>
+                  <option value="Farg'ona viloyati">Ферганская область</option>
+                  <option value="Namangan viloyati">Наманганская обалсть</option>
+                  <option value="Andijon viloyati">Андижанская область</option>
+                  <option value="Qashqadaryo viloyati">Кашкадарьинская область</option>
+                  <option value="Surxandaryo viloyati">Сурхандарьинская область</option>
+                  <option value="Buxoro viloyati">Бухарская область</option>
+                  <option value="Navoiy viloyati">Навоийская область</option>
+                  <option value="Xorazm viloyati">Хорезмская область</option>
+                  <option value="Qoraqalpog'iston Respublikasi">Рекспублика Каракалпакстан</option>
+                </select>
               </div>
               <div>
                 <label for="telefon-raqami">Ваш номер телефона 1</label><br>
@@ -272,7 +297,7 @@
                 +998<input type="text" name="telefon-raqami2" maxlength="9" pattern="\d{9}" required oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 9)">
               </div>
               <div>
-                <label for="maktabi">В какой школе вы учились/учитесь?</label>
+                <label for="maktabi">В какой школе/колледже/лицее вы учились/учитесь?</label>
                 <input type="text" name="maktabi" required>
               </div>
               <div>
@@ -292,10 +317,10 @@
                 box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
                 border-radius: 5px;" required>
                   <option value="0">Выберите предмет</option>
-                  <option value="История">История</option>
-                  <option value="Математика">Математика</option>
-                  <option value="Английский язык">Английский язык</option>
-                  <option value="Арабский язык">Арабский язык</option>
+                  <option value="Tarix">История</option>
+                  <option value="Matematika">Математика</option>
+                  <option value="Ingiliz tili">Английский язык</option>
+                  <option value="Arab tili">Арабский язык</option>
                 </select>
               </div>
               <div>
@@ -311,9 +336,9 @@
                 box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
                 border-radius: 5px;" required>
                   <option value="0">Выберите язык</option>
-                  <option value="Узбекский язык">Узбекский язык</option>
-                  <option value="Русский язык">Русский язык</option>
-                  <option value="Английский язык">Английский язык</option>
+                  <option value="O'zbek tili">Узбекский язык</option>
+                  <option value="Rus tili">Русский язык</option>
+                  <option value="Ingiliz tili">Английский язык</option>
                 </select>
               </div>
               <div>
